@@ -1,2 +1,2 @@
 # owkor-notice
-monitor receipt notice to owkor.com
+monitor receipt notice and push result to owkor.com
