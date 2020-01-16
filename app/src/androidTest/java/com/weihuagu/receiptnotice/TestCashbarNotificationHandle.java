@@ -1,4 +1,4 @@
-package com.weihuagu.receiptnotice;
+package com.owkor.notice;
 import android.app.Notification;
 import android.os.Bundle;
 import android.support.test.InstrumentationRegistry;

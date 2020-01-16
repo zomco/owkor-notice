@@ -1,4 +1,4 @@
-package com.weihuagu.receiptnotice;
+package com.owkor.notice;
 import junit.framework.TestCase;
 import org.junit.Assert;
 import org.junit.Test;

@@ -40,7 +40,7 @@
                 <Preference
                         android:title="解密说明">
                         <intent
-                                android:action="com.weihuagu.receiptnotice.illustratedecryptmethod"
+                                android:action="com.owkor.notice.illustratedecryptmethod"
                                 android:category="android.intent.category.DEFAULT"/>
                 </Preference>
                 <CheckBoxPreference
@@ -108,9 +108,9 @@
                 <Preference
                         android:title="推送记录">
                         <intent
-                                android:action="com.weihuagu.receiptnotice.showfilelog"
-                                android:targetClass="com.weihuagu.receiptnotice.FileLogActivity"
-                                android:targetPackage="com.weihuagu.receiptnotice"/>
+                                android:action="com.owkor.notice.showfilelog"
+                                android:targetClass="com.owkor.notice.FileLogActivity"
+                                android:targetPackage="com.owkor.notice"/>
                 </Preference>
         </PreferenceCategory>
         <PreferenceCategory

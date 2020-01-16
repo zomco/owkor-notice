@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.weihuagu.receiptnotice">
+        package="com.owkor.notice">
         <uses-permission android:name="android.permission.INTERNET" />
         <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
         <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -24,13 +24,13 @@
                 <activity android:name=".FileLogActivity"
                 android:label="@string/filelog_title">
                          <intent-filter >
-                                <action android:name="com.weihuagu.receiptnotice.showfilelog"/>
+                                <action android:name="com.owkor.notice.showfilelog"/>
                         </intent-filter>
                 </activity>
                 <activity android:name=".IllustrateDecryptActivity"
                 android:label="@string/illustratedecrypt_title">
                         <intent-filter>
-                                    <action android:name="com.weihuagu.receiptnotice.illustratedecryptmethod"/>
+                                    <action android:name="com.owkor.notice.illustratedecryptmethod"/>
                                     <category android:name="android.intent.category.DEFAULT"/>
                          </intent-filter>  
                 </activity>
