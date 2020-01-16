@@ -1,20 +1,29 @@
 <resources>
-        <string name="app_name">receiptnotice</string>
-        <string name="text_setting">Setting</string>
-        <string name="text_clearlog">clear log</string>
-        <string name="text_reverseshow">reverse display</string>
-        <string name="text_home_fragment_tip">earn tip</string>
-        <string name="text_home_fragment_nexttip">swip left to receipt record</string>
-        <string name="filelog_title">post record</string>
-        <string name="illustratedecrypt_title">Illustrate Decrypt</string>
-        <string name="buttontext_setposturl">set the post url</string>
-        <string-array name="pref_entries_encryptmethod">
-                <item>des</item>
-                <item>md5</item>
-        </string-array>
+    <string name="app_name">receiptnotice</string>
+    <string name="text_setting">Setting</string>
+    <string name="text_clearlog">clear log</string>
+    <string name="text_reverseshow">reverse display</string>
+    <string name="text_home_fragment_tip">earn tip</string>
+    <string name="text_home_fragment_nexttip">swip left to receipt record</string>
+    <string name="filelog_title">post record</string>
+    <string name="illustratedecrypt_title">Illustrate Decrypt</string>
+    <string name="buttontext_setposturl">set the post url</string>
+    <string-array name="pref_entries_encryptmethod">
+        <item>des</item>
+        <item>md5</item>
+    </string-array>
 
-        <string-array name="pref_entryvalues_encryptmethod">
-                <item>des</item>
-                <item>md5</item>
-        </string-array>
+    <string-array name="pref_entryvalues_encryptmethod">
+        <item>des</item>
+        <item>md5</item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>
