@@ -10,9 +10,9 @@
         <string name="text_home_fragment_nexttip">左滑切换到收款记录</string>
 
         <string name="title_activity_login">登录</string>
-        <string name="prompt_name">用户名 / 手机号码</string>
+        <string name="prompt_name">手机号码</string>
         <string name="prompt_password">密码</string>
-        <string name="action_sign_in">Sign in or register</string>
+        <string name="action_sign_in">登录或注册</string>
         <string name="action_sign_in_short">登录</string>
         <string name="welcome">"欢迎 !"</string>
         <string name="invalid_username">无效的用户名</string>

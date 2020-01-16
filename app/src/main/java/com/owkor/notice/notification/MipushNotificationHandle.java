@@ -1,5 +1,7 @@
-package com.owkor.notice;
+package com.owkor.notice.notification;
 import android.app.Notification;
+
+import com.owkor.notice.IDoPost;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -8,8 +10,8 @@ import java.util.regex.Pattern;
 
 
 
-public class MipushNotificationHandle extends NotificationHandle{
-        public MipushNotificationHandle(String pkgtype,Notification notification,IDoPost postpush){
+public class MipushNotificationHandle extends NotificationHandle {
+        public MipushNotificationHandle(String pkgtype, Notification notification, IDoPost postpush){
                 super(pkgtype,notification,postpush);
         }
 

@@ -1,8 +1,13 @@
-package com.owkor.notice;
+package com.owkor.notice.notification;
 import android.app.Notification;
 import android.provider.Telephony.Sms;
+
+import com.owkor.notice.BanksProxy;
+import com.owkor.notice.IDoPost;
+import com.owkor.notice.MainApplication;
+
 public  class NotificationHandleFactory{
-    public NotificationHandle getNotificationHandle(String pkg,Notification notification,IDoPost postpush){
+    public NotificationHandle getNotificationHandle(String pkg, Notification notification, IDoPost postpush){
                 //mipush
                 if("com.xiaomi.xmsf".equals(pkg)){
                         return  new MipushNotificationHandle("com.xiaomi.xmsf",notification,postpush);

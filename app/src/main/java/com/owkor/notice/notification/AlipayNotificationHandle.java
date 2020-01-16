@@ -1,5 +1,7 @@
-package com.owkor.notice;
+package com.owkor.notice.notification;
 import android.app.Notification;
+
+import com.owkor.notice.IDoPost;
 
 import java.util.Map;
 import java.util.HashMap;
@@ -7,8 +9,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 
-public class AlipayNotificationHandle extends NotificationHandle{
-        public AlipayNotificationHandle(String pkgtype,Notification notification,IDoPost postpush){
+public class AlipayNotificationHandle extends NotificationHandle {
+        public AlipayNotificationHandle(String pkgtype, Notification notification, IDoPost postpush){
                 super(pkgtype,notification,postpush);
         }
 

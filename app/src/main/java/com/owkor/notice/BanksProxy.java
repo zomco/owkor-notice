@@ -1,13 +1,13 @@
 package com.owkor.notice;
 import android.app.Notification;
 
+import com.owkor.notice.notification.NotificationHandle;
+
 import java.util.Map;
 import java.util.HashMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 
-public class BanksProxy extends NotificationHandle{
+public class BanksProxy extends NotificationHandle {
         private BankDistinguisher onedistinguisher=new BankDistinguisher();
 
         public BanksProxy(String pkgtype,Notification notification,IDoPost postpush){

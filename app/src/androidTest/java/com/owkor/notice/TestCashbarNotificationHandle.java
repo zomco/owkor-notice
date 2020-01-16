@@ -1,17 +1,18 @@
 package com.owkor.notice;
 import android.app.Notification;
 import android.os.Bundle;
-import android.support.test.InstrumentationRegistry;
-import android.support.test.runner.AndroidJUnit4;
+import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner;
+
+import com.owkor.notice.notification.CashbarNotificationHandle;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import static org.junit.Assert.*;
-import static org.mockito.Mockito.*;
-import org.mockito.ArgumentMatchers;
-import java.util.Map;
-import java.util.HashMap;
 
-@RunWith(AndroidJUnit4.class)
+import static org.mockito.Mockito.*;
+
+import java.util.Map;
+
+@RunWith(AndroidJUnit4ClassRunner.class)
 public class TestCashbarNotificationHandle{
         CashbarNotificationHandle cashbar=null;
         protected void setUp() throws Exception {

@@ -1,12 +1,15 @@
-package com.owkor.notice;
+package com.owkor.notice.notification;
 import android.app.Notification;
+
+import com.owkor.notice.IDoPost;
+import com.owkor.notice.notification.NotificationHandle;
 
 import java.util.Map;
 import java.util.HashMap;
 
 
-public class UnionpayNotificationHandle extends NotificationHandle{
-        public UnionpayNotificationHandle(String pkgtype,Notification notification,IDoPost postpush){
+public class UnionpayNotificationHandle extends NotificationHandle {
+        public UnionpayNotificationHandle(String pkgtype, Notification notification, IDoPost postpush){
                 super(pkgtype,notification,postpush);
         }
 

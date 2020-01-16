@@ -1,4 +1,4 @@
-package com.owkor.notice;
+package com.owkor.notice.notification;
 import android.app.Notification;
 
 import java.util.Map;
